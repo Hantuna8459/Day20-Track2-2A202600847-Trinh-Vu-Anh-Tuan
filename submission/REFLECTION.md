@@ -4,9 +4,9 @@
 
 ---
 
-**Họ Tên:** _<Họ Tên>_
-**Cohort:** _<A20-K1 / A20-K2 / ...>_
-**Ngày submit:** _<YYYY-MM-DD>_
+**Họ Tên:** Trịnh Vũ Anh Tuấn
+**Cohort:** A20-K2
+**Ngày submit:** 2026-06-24
 
 ---
 
@@ -14,14 +14,14 @@
 
 > Paste output của `python 00-setup/detect-hardware.py` vào đây, hoặc điền thủ công:
 
-- **OS:** _<macOS 14 / Windows 11 / Ubuntu 24.04 / ...>_
-- **CPU:** _<Apple M2 / Intel i7-12700H / AMD Ryzen 7 5800H / ...>_
-- **Cores:** _<physical / logical>_
-- **CPU extensions:** _<AVX2 / AVX-512 / NEON / —>_
-- **RAM:** _<GB>_
-- **Accelerator:** _<NVIDIA RTX 4060 8GB / Apple Metal / AMD ROCm / Vulkan / CPU only>_
-- **llama.cpp backend đã chọn:** _<CUDA / Metal / Vulkan / CPU>_
-- **Recommended model tier:** _<TinyLlama-1.1B / Qwen2.5-1.5B / Llama-3.2-3B / Qwen2.5-7B>_
+- **OS:** window 10
+- **CPU:** i7-8750H
+- **Cores:** 4 core
+- **CPU extensions:** AVX/NEON tuning
+- **RAM:** 16
+- **Accelerator:** nvidia GTX 1050Ti
+- **llama.cpp backend đã chọn:** CPU
+- **Recommended model tier:** Qwen2.5-1.5B-Instruct (Q4_K_M)
 
 **Setup story** (≤ 80 chữ): những gì cần thay đổi để lab chạy được trên máy bạn (vd: dùng WSL2, install CUDA Toolkit, fall back sang Vulkan vì ROCm phiên bản kén, tắt antivirus để pip install nhanh hơn, v.v.):
 
